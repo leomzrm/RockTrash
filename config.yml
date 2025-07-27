@@ -1,0 +1,38 @@
+#
+#    RockTrash Config
+#
+#    If you need support or ask a question:
+#    https://discord.gg/YYxFxnfe8v
+#    https://rockcentral.gitbook.io/rockdev
+#
+#    Do not change this.
+version: 1.9
+aliases:
+#    Need server restart.
+  - "trash"
+  - "garbage"
+  - "rocktrash"
+
+messages:
+#    Leave it blank if you don't want any message.
+  open: ""
+  close: ""
+  cooldown: "&cPlease wait {seconds}s to open again."
+  only-players: "&cOnly players can do this."
+  reload: '&aRockTrash reloaded.'
+  no-permission: '&cYou do not have permission.'
+
+gui:
+#    Options: 9, 18, 27, 36, 45, 54.
+  size: 27
+  gui-title: "&2Trash Can"
+
+sound:
+#    Use "NONE" if you don't want any sound.
+  open: BLOCK_BARREL_OPEN
+  close: BLOCK_BARREL_CLOSE
+
+cooldown:
+#    Bypass with "rocktrash.bypass" permission.
+  enabled: true
+  seconds: 5
